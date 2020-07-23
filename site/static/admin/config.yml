@@ -3,7 +3,6 @@ backend:
   # when using the default proxy server port
 local_backend: true
 
-local_backend:
   # when using a custom proxy server port
   url: http://localhost:8081/api/v1
   # when accessing the local site from a host other than 'localhost' or '127.0.0.1'
