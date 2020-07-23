@@ -9,10 +9,6 @@
 {{ partial "text-and-image" (dict "heading" .Params.values.heading "text" .Params.values.text "buttonText" "Read more" "buttonLink" "/values") }}
 
 {{ partial "blog" . }}
-
-{{ end }}
-{{ define "main" }}
-
 {{ partial "jumbotron" (dict "imageUrl" "/img/blog-index.jpg" "title" "Latest stories") }}
 
 <div class="mw7 center">
@@ -26,4 +22,4 @@
   {{ partial "pagination" . }}
 </div>
 
-{{end}}
+{{ end }}
